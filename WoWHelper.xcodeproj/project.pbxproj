@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C82050BA280DE69E00E6DCC9 /* WoW_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050B9280DE69E00E6DCC9 /* WoW_HelperApp.swift */; };
+		C82050BA280DE69E00E6DCC9 /* WoWHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050B9280DE69E00E6DCC9 /* WoWHelperApp.swift */; };
 		C82050BC280DE69E00E6DCC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050BB280DE69E00E6DCC9 /* ContentView.swift */; };
 		C82050BE280DE69F00E6DCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82050BD280DE69F00E6DCC9 /* Assets.xcassets */; };
 		C82050C1280DE69F00E6DCC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82050C0280DE69F00E6DCC9 /* Preview Assets.xcassets */; };
-		C82050CB280DE69F00E6DCC9 /* WoW_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050CA280DE69F00E6DCC9 /* WoW_HelperTests.swift */; };
-		C82050D5280DE69F00E6DCC9 /* WoW_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050D4280DE69F00E6DCC9 /* WoW_HelperUITests.swift */; };
-		C82050D7280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050D6280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift */; };
+		C82050CB280DE69F00E6DCC9 /* WoWHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050CA280DE69F00E6DCC9 /* WoWHelperTests.swift */; };
 		C82050E5280DEA6400E6DCC9 /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = C82050E4280DEA6400E6DCC9 /* OAuth2 */; };
 /* End PBXBuildFile section */
 
@@ -25,26 +23,17 @@
 			remoteGlobalIDString = C82050B5280DE69E00E6DCC9;
 			remoteInfo = "WoW Helper";
 		};
-		C82050D1280DE69F00E6DCC9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C82050AE280DE69E00E6DCC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C82050B5280DE69E00E6DCC9;
-			remoteInfo = "WoW Helper";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C82050B6280DE69E00E6DCC9 /* WoW Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoW Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C82050B9280DE69E00E6DCC9 /* WoW_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoW_HelperApp.swift; sourceTree = "<group>"; };
+		C82050B6280DE69E00E6DCC9 /* WoWHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoWHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82050B9280DE69E00E6DCC9 /* WoWHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWHelperApp.swift; sourceTree = "<group>"; };
 		C82050BB280DE69E00E6DCC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C82050BD280DE69F00E6DCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C82050C0280DE69F00E6DCC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C82050C6280DE69F00E6DCC9 /* WoW HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoW HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C82050CA280DE69F00E6DCC9 /* WoW_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoW_HelperTests.swift; sourceTree = "<group>"; };
-		C82050D0280DE69F00E6DCC9 /* WoW HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoW HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C82050D4280DE69F00E6DCC9 /* WoW_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoW_HelperUITests.swift; sourceTree = "<group>"; };
-		C82050D6280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoW_HelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C82050C6280DE69F00E6DCC9 /* WoWHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoWHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82050CA280DE69F00E6DCC9 /* WoWHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoWHelperTests.swift; sourceTree = "<group>"; };
+		C8F978B4280E070E00BB5106 /* WoWAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WoWAPI; path = WoWHelper/WoWAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,22 +52,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C82050CD280DE69F00E6DCC9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C82050AD280DE69E00E6DCC9 = {
 			isa = PBXGroup;
 			children = (
-				C82050B8280DE69E00E6DCC9 /* WoW Helper */,
-				C82050C9280DE69F00E6DCC9 /* WoW HelperTests */,
-				C82050D3280DE69F00E6DCC9 /* WoW HelperUITests */,
+				C8F978B4280E070E00BB5106 /* WoWAPI */,
+				C82050B8280DE69E00E6DCC9 /* WoWHelper */,
+				C82050C9280DE69F00E6DCC9 /* WoWHelperTests */,
 				C82050B7280DE69E00E6DCC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,22 +68,21 @@
 		C82050B7280DE69E00E6DCC9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C82050B6280DE69E00E6DCC9 /* WoW Helper.app */,
-				C82050C6280DE69F00E6DCC9 /* WoW HelperTests.xctest */,
-				C82050D0280DE69F00E6DCC9 /* WoW HelperUITests.xctest */,
+				C82050B6280DE69E00E6DCC9 /* WoWHelper.app */,
+				C82050C6280DE69F00E6DCC9 /* WoWHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C82050B8280DE69E00E6DCC9 /* WoW Helper */ = {
+		C82050B8280DE69E00E6DCC9 /* WoWHelper */ = {
 			isa = PBXGroup;
 			children = (
-				C82050B9280DE69E00E6DCC9 /* WoW_HelperApp.swift */,
+				C82050B9280DE69E00E6DCC9 /* WoWHelperApp.swift */,
 				C82050BB280DE69E00E6DCC9 /* ContentView.swift */,
 				C82050BD280DE69F00E6DCC9 /* Assets.xcassets */,
 				C82050BF280DE69F00E6DCC9 /* Preview Content */,
 			);
-			path = "WoW Helper";
+			path = WoWHelper;
 			sourceTree = "<group>";
 		};
 		C82050BF280DE69F00E6DCC9 /* Preview Content */ = {
@@ -112,49 +93,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C82050C9280DE69F00E6DCC9 /* WoW HelperTests */ = {
+		C82050C9280DE69F00E6DCC9 /* WoWHelperTests */ = {
 			isa = PBXGroup;
 			children = (
-				C82050CA280DE69F00E6DCC9 /* WoW_HelperTests.swift */,
+				C82050CA280DE69F00E6DCC9 /* WoWHelperTests.swift */,
 			);
-			path = "WoW HelperTests";
-			sourceTree = "<group>";
-		};
-		C82050D3280DE69F00E6DCC9 /* WoW HelperUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C82050D4280DE69F00E6DCC9 /* WoW_HelperUITests.swift */,
-				C82050D6280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift */,
-			);
-			path = "WoW HelperUITests";
+			path = WoWHelperTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C82050B5280DE69E00E6DCC9 /* WoW Helper */ = {
+		C82050B5280DE69E00E6DCC9 /* WoWHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C82050DA280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW Helper" */;
+			buildConfigurationList = C82050DA280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoWHelper" */;
 			buildPhases = (
 				C82050B2280DE69E00E6DCC9 /* Sources */,
 				C82050B3280DE69E00E6DCC9 /* Frameworks */,
 				C82050B4280DE69E00E6DCC9 /* Resources */,
+				C82050E6280DECCB00E6DCC9 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WoW Helper";
+			name = WoWHelper;
 			packageProductDependencies = (
 				C82050E4280DEA6400E6DCC9 /* OAuth2 */,
 			);
 			productName = "WoW Helper";
-			productReference = C82050B6280DE69E00E6DCC9 /* WoW Helper.app */;
+			productReference = C82050B6280DE69E00E6DCC9 /* WoWHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C82050C5280DE69F00E6DCC9 /* WoW HelperTests */ = {
+		C82050C5280DE69F00E6DCC9 /* WoWHelperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C82050DD280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW HelperTests" */;
+			buildConfigurationList = C82050DD280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoWHelperTests" */;
 			buildPhases = (
 				C82050C2280DE69F00E6DCC9 /* Sources */,
 				C82050C3280DE69F00E6DCC9 /* Frameworks */,
@@ -165,28 +138,10 @@
 			dependencies = (
 				C82050C8280DE69F00E6DCC9 /* PBXTargetDependency */,
 			);
-			name = "WoW HelperTests";
+			name = WoWHelperTests;
 			productName = "WoW HelperTests";
-			productReference = C82050C6280DE69F00E6DCC9 /* WoW HelperTests.xctest */;
+			productReference = C82050C6280DE69F00E6DCC9 /* WoWHelperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C82050CF280DE69F00E6DCC9 /* WoW HelperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C82050E0280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW HelperUITests" */;
-			buildPhases = (
-				C82050CC280DE69F00E6DCC9 /* Sources */,
-				C82050CD280DE69F00E6DCC9 /* Frameworks */,
-				C82050CE280DE69F00E6DCC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C82050D2280DE69F00E6DCC9 /* PBXTargetDependency */,
-			);
-			name = "WoW HelperUITests";
-			productName = "WoW HelperUITests";
-			productReference = C82050D0280DE69F00E6DCC9 /* WoW HelperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,13 +160,9 @@
 						CreatedOnToolsVersion = 13.3.1;
 						TestTargetID = C82050B5280DE69E00E6DCC9;
 					};
-					C82050CF280DE69F00E6DCC9 = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = C82050B5280DE69E00E6DCC9;
-					};
 				};
 			};
-			buildConfigurationList = C82050B1280DE69E00E6DCC9 /* Build configuration list for PBXProject "WoW Helper" */;
+			buildConfigurationList = C82050B1280DE69E00E6DCC9 /* Build configuration list for PBXProject "WoWHelper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C82050B5280DE69E00E6DCC9 /* WoW Helper */,
-				C82050C5280DE69F00E6DCC9 /* WoW HelperTests */,
-				C82050CF280DE69F00E6DCC9 /* WoW HelperUITests */,
+				C82050B5280DE69E00E6DCC9 /* WoWHelper */,
+				C82050C5280DE69F00E6DCC9 /* WoWHelperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,14 +201,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C82050CE280DE69F00E6DCC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C82050E6280DECCB00E6DCC9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C82050B2280DE69E00E6DCC9 /* Sources */ = {
@@ -266,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C82050BC280DE69E00E6DCC9 /* ContentView.swift in Sources */,
-				C82050BA280DE69E00E6DCC9 /* WoW_HelperApp.swift in Sources */,
+				C82050BA280DE69E00E6DCC9 /* WoWHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,16 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C82050CB280DE69F00E6DCC9 /* WoW_HelperTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C82050CC280DE69F00E6DCC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C82050D7280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift in Sources */,
-				C82050D5280DE69F00E6DCC9 /* WoW_HelperUITests.swift in Sources */,
+				C82050CB280DE69F00E6DCC9 /* WoWHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,13 +246,8 @@
 /* Begin PBXTargetDependency section */
 		C82050C8280DE69F00E6DCC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C82050B5280DE69E00E6DCC9 /* WoW Helper */;
+			target = C82050B5280DE69E00E6DCC9 /* WoWHelper */;
 			targetProxy = C82050C7280DE69F00E6DCC9 /* PBXContainerItemProxy */;
-		};
-		C82050D2280DE69F00E6DCC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C82050B5280DE69E00E6DCC9 /* WoW Helper */;
-			targetProxy = C82050D1280DE69F00E6DCC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -424,13 +373,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WoW Helper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WoWHelper/Preview Content\"";
 				DEVELOPMENT_TEAM = 8TYF5VAX58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,13 +403,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WoW Helper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WoWHelper/Preview Content\"";
 				DEVELOPMENT_TEAM = 8TYF5VAX58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,7 +442,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoW Helper.app/WoW Helper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWHelper.app/WoWHelper";
 			};
 			name = Debug;
 		};
@@ -511,50 +462,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoW Helper.app/WoW Helper";
-			};
-			name = Release;
-		};
-		C82050E1280DE69F00E6DCC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8TYF5VAX58;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.pobe16.WoW-HelperUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WoW Helper";
-			};
-			name = Debug;
-		};
-		C82050E2280DE69F00E6DCC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8TYF5VAX58;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.pobe16.WoW-HelperUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "WoW Helper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoWHelper.app/WoWHelper";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C82050B1280DE69E00E6DCC9 /* Build configuration list for PBXProject "WoW Helper" */ = {
+		C82050B1280DE69E00E6DCC9 /* Build configuration list for PBXProject "WoWHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C82050D8280DE69F00E6DCC9 /* Debug */,
@@ -563,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C82050DA280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW Helper" */ = {
+		C82050DA280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoWHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C82050DB280DE69F00E6DCC9 /* Debug */,
@@ -572,20 +487,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C82050DD280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW HelperTests" */ = {
+		C82050DD280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoWHelperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C82050DE280DE69F00E6DCC9 /* Debug */,
 				C82050DF280DE69F00E6DCC9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C82050E0280DE69F00E6DCC9 /* Build configuration list for PBXNativeTarget "WoW HelperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C82050E1280DE69F00E6DCC9 /* Debug */,
-				C82050E2280DE69F00E6DCC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

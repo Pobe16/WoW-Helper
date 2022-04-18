@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct WoW_HelperApp: App {
+struct WoWHelperApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
