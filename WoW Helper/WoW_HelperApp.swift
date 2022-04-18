@@ -1,6 +1,6 @@
 //
 //  WoW_HelperApp.swift
-//  Shared
+//  WoW Helper
 //
 //  Created by Mikolaj Lukasik on 18/04/2022.
 //

@@ -1,13 +1,13 @@
 //
-//  Tests_iOS.swift
-//  Tests iOS
+//  WoW_HelperUITests.swift
+//  WoW HelperUITests
 //
 //  Created by Mikolaj Lukasik on 18/04/2022.
 //
 
 import XCTest
 
-class Tests_iOS: XCTestCase {
+class WoW_HelperUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

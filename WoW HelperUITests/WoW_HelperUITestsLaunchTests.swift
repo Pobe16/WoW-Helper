@@ -1,13 +1,13 @@
 //
-//  Tests_iOSLaunchTests.swift
-//  Tests iOS
+//  WoW_HelperUITestsLaunchTests.swift
+//  WoW HelperUITests
 //
 //  Created by Mikolaj Lukasik on 18/04/2022.
 //
 
 import XCTest
 
-class Tests_iOSLaunchTests: XCTestCase {
+class WoW_HelperUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
