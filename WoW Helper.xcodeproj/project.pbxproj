@@ -14,6 +14,7 @@
 		C82050CB280DE69F00E6DCC9 /* WoW_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050CA280DE69F00E6DCC9 /* WoW_HelperTests.swift */; };
 		C82050D5280DE69F00E6DCC9 /* WoW_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050D4280DE69F00E6DCC9 /* WoW_HelperUITests.swift */; };
 		C82050D7280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82050D6280DE69F00E6DCC9 /* WoW_HelperUITestsLaunchTests.swift */; };
+		C82050E5280DEA6400E6DCC9 /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = C82050E4280DEA6400E6DCC9 /* OAuth2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82050E5280DEA6400E6DCC9 /* OAuth2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "WoW Helper";
+			packageProductDependencies = (
+				C82050E4280DEA6400E6DCC9 /* OAuth2 */,
+			);
 			productName = "WoW Helper";
 			productReference = C82050B6280DE69E00E6DCC9 /* WoW Helper.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = C82050AD280DE69E00E6DCC9;
+			packageReferences = (
+				C82050E3280DEA6400E6DCC9 /* XCRemoteSwiftPackageReference "OAuth2" */,
+			);
 			productRefGroup = C82050B7280DE69E00E6DCC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C82050E3280DEA6400E6DCC9 /* XCRemoteSwiftPackageReference "OAuth2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/p2/OAuth2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C82050E4280DEA6400E6DCC9 /* OAuth2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C82050E3280DEA6400E6DCC9 /* XCRemoteSwiftPackageReference "OAuth2" */;
+			productName = OAuth2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C82050AE280DE69E00E6DCC9 /* Project object */;
 }
